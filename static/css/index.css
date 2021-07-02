@@ -9,30 +9,13 @@ header {
 	height:50px; 
 	overflow:hidden;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
-nav {width:96%; margin:0 auto;}
-nav > ul > li {float:left; line-height:50px; position: relative;}
-.main_title{
-    padding-left: 22%;
-    padding-right: 22%;
-    font-size:larger;
-    font-weight: bold;
-}
-
-.sub{
-    margin-left: 30px;
-    font-family: 'Poppins', sans-serif;
-}
 
 .main_photo img{
     width: 550px;
     height: 700px;
 }
 .main_photo{
-    padding-left: 33%;
+    text-align: center;
 }
 
 
@@ -131,14 +114,4 @@ label.right {
     75% {left:100%;}
     98% {left:100%;}
     100% {left:0%;}
-}
-
-.bottom{
-    display: flex;
-    text-align: center;
-}
-
-.bottom-sub{
-    padding-top: 3%;
-    padding-left: 10%;
 }
